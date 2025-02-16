@@ -40,7 +40,7 @@ Crie um arquivo `.env` na raiz do projeto com as seguintes configurações:
 ```ini
 DB_HOST=localhost
 DB_PORT=3306
-DB_NAME=gestecx_db
+DB_NAME=GestecX
 DB_USER=root
 DB_PASSWORD=senha_segura
 ```
