@@ -5,7 +5,7 @@ CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
-    senha_hash VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL,
     tipo ENUM('admin', 'vendedor', 'estoquista') NOT NULL DEFAULT 'vendedor',
     data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
